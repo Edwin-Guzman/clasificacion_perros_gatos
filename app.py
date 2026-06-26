@@ -7,8 +7,13 @@ from PIL import Image
 
 # Configuración de la interfaz
 st.set_page_config(page_title="Clasificador Perros vs Gatos", layout="centered")
-st.title("Modelo Predictivo Perros vs Gatos - Edwin Guzmán - 2026")
+
+# --- INFORMACIÓN DEL ESTUDIANTE (REQUERIMIENTO DE RÚBRICA) ---
+st.title("Modelo Predictivo Perros vs Gatos")
+st.markdown("### **Estudiante:** Edwin Eduardo Guzmán Ramos")
+st.markdown("### **Número de Cuenta:** 20211930058")
 st.write("Suba una imagen para clasificarla mediante la red neuronal MobileNetV2 adaptada.")
+st.write("---") # Línea divisoria visual
 
 IMG_SIZE = (224, 224)
 
